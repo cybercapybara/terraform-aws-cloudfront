@@ -9,7 +9,7 @@ HTTPS defaults, exposing the distribution domain name for DNS aliasing.
 
 ```hcl
 module "cloudfront" {
-  source = "github.com/cybercapybara/terraform-aws-cloudfront"
+  source = "github.com/moveeeax/terraform-aws-cloudfront"
 
   origin_domain_name = "assets.example.com"
 
